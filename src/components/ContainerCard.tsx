@@ -2,7 +2,6 @@ import { Button } from '@/components/ui/button'
 import {
     Card,
     CardContent,
-    CardDescription,
     CardFooter,
     CardHeader,
     CardTitle,
@@ -12,15 +11,20 @@ import { Label } from '@/components/ui/label'
 
 const ContainerCard = () => {
     return (
-        <Card className="mt-36 w-[350px] h-fit text-zinc-100 bg-gradient-to-r from-red-400    to-green-400">
+        <Card className="mt-36 w-[350px] h-fit text-zinc-100 bg-gradient-to-r from-red-400 to-green-400">
             <CardHeader>
-                <CardTitle>Best day to buy a stock</CardTitle>
-                <CardDescription>...</CardDescription>
+                <CardTitle className="text-3xl">
+                    Best day to buy a stock
+                </CardTitle>
+                {/* <CardDescription>...</CardDescription> */}
             </CardHeader>
             <CardContent>
                 <form>
                     <div className="grid w-full items-center gap-4">
-                        <Label htmlFor="picture" className="text-inherit">
+                        <Label
+                            htmlFor="picture"
+                            className=" text-lg text-inherit"
+                        >
                             Stock data
                         </Label>
                         <Input
