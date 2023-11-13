@@ -12,7 +12,7 @@ import { Label } from '@/components/ui/label'
 
 const ContainerCard = () => {
     return (
-        <Card className="w-[350px] text-zinc-100 bg-gradient-to-r from-red-400    to-green-400">
+        <Card className="mt-36 w-[350px] h-fit text-zinc-100 bg-gradient-to-r from-red-400    to-green-400">
             <CardHeader>
                 <CardTitle>Best day to buy a stock</CardTitle>
                 <CardDescription>...</CardDescription>

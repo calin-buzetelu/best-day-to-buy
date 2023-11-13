@@ -3,8 +3,8 @@ import ContainerCard from './components/ContainerCard'
 
 function App() {
     return (
-        <div className="w-full h-full">
-            <div className="mx-auto flex justify-center">
+        <div className="w-screen h-screen">
+            <div className="flex justify-center">
                 <ContainerCard></ContainerCard>
             </div>
         </div>
